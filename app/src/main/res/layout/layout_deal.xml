@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="16dp"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/ivProductThumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:contentDescription="@null"/>
+
+    <TextView
+        android:id="@+id/tvProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:lines="2"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvProductPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#ff424E"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/tvDueDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#000000"
+        android:text="Kết thúc sau: "/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="MUA NGAY"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/background_button"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
